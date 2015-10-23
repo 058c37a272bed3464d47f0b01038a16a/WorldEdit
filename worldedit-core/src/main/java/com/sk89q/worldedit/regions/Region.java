@@ -133,7 +133,7 @@ public interface Region extends Iterable<BlockVector>, Cloneable {
     public Set<Vector> getChunkCubes();
 
     /**
-     * Sets the world that the selection is in.
+     * Gets the world that the selection is in.
      *
      * @return the world, or null
      */
